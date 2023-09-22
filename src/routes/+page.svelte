@@ -3,6 +3,7 @@
     import '../app.postcss';
 	import Conditions from '../lib/components/conditions.svelte';
 	import List from '../lib/components/list.svelte';
+	import Form from '../lib/components/form.svelte';
 </script>
 
 <body>
@@ -10,6 +11,7 @@
         <Binding/>
         <Conditions/>
         <List/>
+        <Form/>
     </div>
 
 </body>

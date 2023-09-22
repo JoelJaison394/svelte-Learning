@@ -1,6 +1,6 @@
 <script> 
     let fruit = '';
-    let fruits = ["appple"];
+    let fruits = ["apple"];
   
     const handleInput = () => {
       console.log(fruit);
