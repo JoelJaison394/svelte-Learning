@@ -1,5 +1,11 @@
 <script>
+    import Binding from '../lib/components/binding.svelte';
     import '../app.postcss';
 </script>
 
-<h1 class="text-center text-orange-400 p-4">Hello World</h1>
+<body>
+    <div class="container p-5">
+        <Binding/>
+    </div>
+
+</body>
