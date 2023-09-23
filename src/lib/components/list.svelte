@@ -9,7 +9,6 @@
     };
   
     $: {
-      // Render the fruits state after it is updated.
       fruits = [...fruits];
     }
   </script>
