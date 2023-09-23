@@ -6,6 +6,7 @@
 	import List from '../lib/components/list.svelte';
 	import Form from '../lib/components/form.svelte';
 	import HighlevelComponent from '../lib/components/highlevelComponent.svelte';
+	import Outer from '../lib/components/outer.svelte';
 	let data = [
 		{
 			id: 1,
@@ -44,5 +45,6 @@
 		<List />
 		<Form />
 		<HighlevelComponent />
+		<Outer on:greet={()=>{alert("Namsthe")}}/>
 	</div>
 </body>
