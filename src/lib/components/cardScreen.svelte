@@ -1,6 +1,7 @@
 <script>
 	import Cardslotdefault from "./cardslotdefault.svelte";
 import Cardslots from "./cardslots.svelte";
+	import Namedslots from "./namedslots.svelte";
 </script>
 
 <body class="bg-gray-100 min-h-screen flex items-center justify-around">
@@ -19,4 +20,10 @@ import Cardslots from "./cardslots.svelte";
         <Cardslotdefault>
             
         </Cardslotdefault>
+
+        <Namedslots>
+            <div slot="header">This will replace header slot</div>
+            <div slot="content">This will be in content slot and if it was not there the default content will be displayed</div>
+            <div slot="footer">This will be in the slot with name footer</div>
+        </Namedslots>
 </body>
