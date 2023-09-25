@@ -8,3 +8,4 @@ If you're here for the tutorial series, you can find detailed articles in the fo
 
 - [Series Introduction](https://joeljaison.hashnode.dev/getting-started-with-svelte-a-comprehensive-tutorial-series)
 - [Lesson 1: Mastering Bindings](https://joeljaison.hashnode.dev/unlocking-the-power-of-svelte-mastering-bindings)
+- [Lesson 2: Mastering Conditional Rendering and Lists](https://joeljaison.hashnode.dev/mastering-conditional-rendering-and-lists-in-svelte)
